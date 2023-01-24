@@ -1,0 +1,9 @@
+version: '3.3'
+services:
+    qaul:
+        container_name: qaul
+        restart: always
+        image: hzgood/qaul
+        ports:
+            - 9229:9229
+        command: qauld
